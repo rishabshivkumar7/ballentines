@@ -4,6 +4,11 @@ const StartScreen = ({ startGame }) => {
     return (
         <div className="start-screen">
             <p className="subtitle">Made a little game for you :)</p>
+            <img
+                src={process.env.PUBLIC_URL + '/photos/startpage.png'}
+                alt="Start Page"
+                className="start-page-image"
+            />
             <button className="start-button" onClick={startGame}>
                 START GAME
             </button>

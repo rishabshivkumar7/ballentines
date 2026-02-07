@@ -1,33 +1,49 @@
 import React, { useState } from 'react';
 
 const LoginQuestionnaire = ({ questions, onSuccess }) => {
-    const [randomQuestion] = useState(() => {
-        const randomIndex = Math.floor(Math.random() * questions.length);
-        return questions[randomIndex];
-    });
+    const [currentIndex, setCurrentIndex] = useState(0);
     const [inputValue, setInputValue] = useState('');
     const [error, setError] = useState(false);
+    const [showFinished, setShowFinished] = useState(false);
+
+    const currentQuestion = questions[currentIndex];
 
     const handleSubmit = (e) => {
         if (e) e.preventDefault();
 
-        const isCorrect = randomQuestion.correctAnswers.some(
+        const isCorrect = currentQuestion.correctAnswers.some(
             answer => answer.toLowerCase().trim() === inputValue.toLowerCase().trim()
         );
 
         if (isCorrect) {
-            onSuccess();
+            if (currentIndex < questions.length - 1) {
+                setCurrentIndex(currentIndex + 1);
+                setInputValue('');
+                setError(false);
+            } else {
+                // To unlock the game immediately, change the line below to: onSuccess();
+                setShowFinished(true);
+            }
         } else {
             setError(true);
         }
     };
 
+    if (showFinished) {
+        return (
+            <div className="login-questionnaire finished">
+                <h2 className="question-text">That's all for now!</h2>
+                <p style={{ fontSize: '0.5rem', marginTop: '20px', opacity: 0.6 }}> (Love ya 😘) </p>
+            </div>
+        );
+    }
+
     return (
         <div className="login-questionnaire">
             <div className="question-counter">
-                VERIFY IDENTITY
+                Question {currentIndex + 1} of {questions.length}
             </div>
-            <h2 className="question-text">{randomQuestion.question}</h2>
+            <h2 className="question-text">{currentQuestion.question}</h2>
 
             <form onSubmit={handleSubmit} className="input-form">
                 <input
@@ -49,7 +65,7 @@ const LoginQuestionnaire = ({ questions, onSuccess }) => {
                     className="submit-button"
                     disabled={!inputValue.trim()}
                 >
-                    ENTER
+                    {currentIndex === questions.length - 1 ? 'FINISH' : 'NEXT'}
                 </button>
             </form>
         </div>

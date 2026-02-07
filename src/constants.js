@@ -49,27 +49,37 @@ export const SPEED_INCREASE = 50;
 export const LOGIN_QUESTIONS = [
     {
         id: 1,
-        question: "What is my favorite color?",
-        correctAnswers: ["Pink", "Light Pink", "Rose"]
+        question: "Where did Rishab & Rithika first meet?",
+        correctAnswers: ["Metro"]
     },
-    {
-        id: 2,
-        question: "Where was our first date?",
-        correctAnswers: ["Cafe", "The Cafe", "Third Wave"]
-    },
-    {
-        id: 3,
-        question: "What is my favorite food?",
-        correctAnswers: ["Sushi", "Sashimi", "Japanese"]
-    },
-    {
-        id: 4,
-        question: "What month is our anniversary?",
-        correctAnswers: ["August", "Aug"]
-    },
-    {
-        id: 5,
-        question: "Do you love me?",
-        correctAnswers: ["Yes", "Of course", "Always", "I do"]
-    }
+    // {
+    //     id: 2,
+    //     question: "Where was our first date?",
+    //     correctAnswers: ["Cafe", "The Cafe", "Third Wave"]
+    // },
+    // {
+    //     id: 3,
+    //     question: "What is my favorite food?",
+    //     correctAnswers: ["Sushi", "Sashimi", "Japanese"]
+    // },
+    // {
+    //     id: 4,
+    //     question: "What month is our anniversary?",
+    //     correctAnswers: ["August", "Aug"]
+    // },
+    // {
+    //     id: 5,
+    //     question: "Do you love me?",
+    //     correctAnswers: ["Yes", "Of course", "Always", "I do"]
+    // },
+    // {
+    //     id: 6,
+    //     question: "Do you love me?",
+    //     correctAnswers: ["Yes", "Of course", "Always", "I do"]
+    // },
+    // {
+    //     id: 7,
+    //     question: "Do you love me?",
+    //     correctAnswers: ["Yes", "Of course", "Always", "I do"]
+    // }
 ];

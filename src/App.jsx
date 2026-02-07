@@ -353,6 +353,11 @@ function App() {
       <div className="game-container">
         <h1 className="title">Hi Ball!</h1>
 
+        {/* 
+          TO REMOVE THE QUESTIONNAIRE GATE:
+          1. Change "!isLoggedIn" below to "false" 
+          2. OR set the initial state of "isLoggedIn" to true at the top of the component.
+        */}
         {!isLoggedIn ? (
           <LoginQuestionnaire
             questions={LOGIN_QUESTIONS}

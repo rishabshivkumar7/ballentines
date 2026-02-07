@@ -72,6 +72,16 @@ body {
   line-height: 1.6;
 }
 
+.start-page-image {
+  width: 100%;
+  max-width: 200px;
+  margin: 0 auto 30px auto;
+  display: block;
+  border: var(--pixel-border);
+  box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.1);
+  image-rendering: pixelated;
+}
+
 .start-button,
 .restart-button {
   background: var(--peach-main);
