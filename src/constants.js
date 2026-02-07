@@ -32,13 +32,13 @@ export const MESSAGES = {
 };
 
 export const PHOTO_SETS = {
-    I: '/photos/photo1.png',
-    O: '/photos/photo2.png',
-    T: '/photos/photo3.png',
-    S: '/photos/photo4.png',
-    Z: '/photos/photo5.png',
-    J: '/photos/photo6.png',
-    L: '/photos/photo7.png',
+    I: process.env.PUBLIC_URL + '/photos/photo1.png',
+    O: process.env.PUBLIC_URL + '/photos/photo2.png',
+    T: process.env.PUBLIC_URL + '/photos/photo3.png',
+    S: process.env.PUBLIC_URL + '/photos/photo4.png',
+    Z: process.env.PUBLIC_URL + '/photos/photo5.png',
+    J: process.env.PUBLIC_URL + '/photos/photo6.png',
+    L: process.env.PUBLIC_URL + '/photos/photo7.png',
 };
 
 export const BOARD_WIDTH = 10;
