@@ -29,13 +29,13 @@ mkdir public/photos
 ```
 
 Add 7 photos of your girlfriend named:
-- `photo1.jpg` - Happy/Laughing
-- `photo2.jpg` - Thoughtful/Peaceful
-- `photo3.jpg` - Playful/Fun
-- `photo4.jpg` - Loving/Tender
-- `photo5.jpg` - Confident/Strong
-- `photo6.jpg` - Surprised/Delighted
-- `photo7.jpg` - Sleepy/Cozy
+- `photo1.png` - Happy/Laughing
+- `photo2.png` - Thoughtful/Peaceful
+- `photo3.png` - Playful/Fun
+- `photo4.png` - Loving/Tender
+- `photo5.png` - Confident/Strong
+- `photo6.png` - Surprised/Delighted
+- `photo7.png` - Sleepy/Cozy
 
 **Tips for photos:**
 - Use square format (1:1 aspect ratio)
@@ -198,8 +198,8 @@ Just add more strings to the message arrays in `src/App.jsx`.
 
 ### Photos Not Showing
 - Check that photos are in `public/photos/` folder
-- Verify file names match exactly: `photo1.jpg` through `photo7.jpg`
-- Check file extensions (.jpg not .jpeg)
+- Verify file names match exactly: `photo1.png` through `photo7.png`
+- Check file extensions (.png not .jpg)
 - Clear browser cache and refresh
 
 ### Deployment Failed
@@ -223,8 +223,8 @@ Just add more strings to the message arrays in `src/App.jsx`.
 valentineball/
 ├── public/
 │   ├── photos/           # Add your 7 photos here
-│   │   ├── photo1.jpg
-│   │   ├── photo2.jpg
+│   │   ├── photo1.png
+│   │   ├── photo2.png
 │   │   └── ...
 │   └── index.html
 ├── src/

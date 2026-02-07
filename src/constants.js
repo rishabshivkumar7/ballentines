@@ -10,18 +10,15 @@ export const SHAPES = {
 
 export const MESSAGES = {
     single: [
-        "I love your smile",
-        "You're beautiful",
-        "That's my girl",
-        "Perfect, just like you",
-        "Your laugh gets me every time",
+        "Lets gooooo",
+        "You're the only Ball I'd never want to bounce.",
+        "Nice pappu",
+        "Ball is on a roll",
     ],
     double: [
-        "You make every day better",
-        "Can't stop thinking about you",
-        "Remember this moment? I do.",
-        "You're absolutely amazing",
-        "Lucky to have you in my life",
+        "Killing it ball",
+        "I love you more than you love a fresh prescription",
+        "Whatever the dealer's giving you, it's working. You look great."
     ],
     triple: [
         "I can't believe I get to love someone as wonderful as you",
@@ -30,24 +27,49 @@ export const MESSAGES = {
         "These memories with you mean everything",
     ],
     tetris: [
-        "YOU'RE INCREDIBLE! Just like this Tetris!",
-        "Four lines! You're unstoppable, just like my love",
-        "TETRIS! You're amazing at everything you do",
-        "Perfect clear, perfect girl",
+        "Okay I will marry you now.",
     ]
 };
 
 export const PHOTO_SETS = {
-    I: '/photos/photo1.jpg',
-    O: '/photos/photo2.jpg',
-    T: '/photos/photo3.jpg',
-    S: '/photos/photo4.jpg',
-    Z: '/photos/photo5.jpg',
-    J: '/photos/photo6.jpg',
-    L: '/photos/photo7.jpg',
+    I: '/photos/photo1.png',
+    O: '/photos/photo2.png',
+    T: '/photos/photo3.png',
+    S: '/photos/photo4.png',
+    Z: '/photos/photo5.png',
+    J: '/photos/photo6.png',
+    L: '/photos/photo7.png',
 };
 
 export const BOARD_WIDTH = 10;
 export const BOARD_HEIGHT = 15;
 export const INITIAL_DROP_SPEED = 800;
 export const SPEED_INCREASE = 50;
+
+export const LOGIN_QUESTIONS = [
+    {
+        id: 1,
+        question: "What is my favorite color?",
+        correctAnswers: ["Pink", "Light Pink", "Rose"]
+    },
+    {
+        id: 2,
+        question: "Where was our first date?",
+        correctAnswers: ["Cafe", "The Cafe", "Third Wave"]
+    },
+    {
+        id: 3,
+        question: "What is my favorite food?",
+        correctAnswers: ["Sushi", "Sashimi", "Japanese"]
+    },
+    {
+        id: 4,
+        question: "What month is our anniversary?",
+        correctAnswers: ["August", "Aug"]
+    },
+    {
+        id: 5,
+        question: "Do you love me?",
+        correctAnswers: ["Yes", "Of course", "Always", "I do"]
+    }
+];

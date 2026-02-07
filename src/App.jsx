@@ -15,6 +15,8 @@ import Message from './components/Message';
 import StartScreen from './components/StartScreen';
 import GameOver from './components/GameOver';
 import ControlsHint from './components/ControlsHint';
+import LoginQuestionnaire from './components/LoginQuestionnaire';
+import { LOGIN_QUESTIONS } from './constants';
 
 function App() {
   const createEmptyBoard = useCallback(() => {
@@ -39,6 +41,7 @@ function App() {
   const [lines, setLines] = useState(0);
   const [gameOver, setGameOver] = useState(false);
   const [gameStarted, setGameStarted] = useState(false);
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [message, setMessage] = useState(null);
   const [dropSpeed, setDropSpeed] = useState(INITIAL_DROP_SPEED);
   const [touchStart, setTouchStart] = useState(null);
@@ -348,9 +351,14 @@ function App() {
   return (
     <div className="app">
       <div className="game-container">
-        <h1 className="title">For My Love</h1>
+        <h1 className="title">Hi Ball!</h1>
 
-        {!gameStarted ? (
+        {!isLoggedIn ? (
+          <LoginQuestionnaire
+            questions={LOGIN_QUESTIONS}
+            onSuccess={() => setIsLoggedIn(true)}
+          />
+        ) : !gameStarted ? (
           <StartScreen startGame={startGame} />
         ) : (
           <>

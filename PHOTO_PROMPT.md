@@ -6,7 +6,7 @@ Generate 7 unique portrait photos for a mobile Tetris game. Each photo will be u
 ## Technical Requirements
 - **Aspect Ratio**: Square (1:1)
 - **Resolution**: 512x512px minimum
-- **Format**: JPG or PNG
+- **Format**: PNG or JPG
 - **Style**: Consistent across all 7 images
 - **Subject**: Same person in all photos (consistency is critical)
 
@@ -89,16 +89,16 @@ If using actual photos of your girlfriend:
 3. Ensure consistent lighting and quality
 4. Edit for similar color temperature if needed
 5. Compress to reasonable file size (<200KB each)
-6. Name files: photo1.jpg through photo7.jpg
+6. Name files: photo1.png through photo7.png
 
 ## File Naming Convention
-- photo1.jpg → I-Block (Happy/Laughing)
-- photo2.jpg → O-Block (Thoughtful/Peaceful)
-- photo3.jpg → T-Block (Playful/Fun)
-- photo4.jpg → S-Block (Loving/Tender)
-- photo5.jpg → Z-Block (Confident/Strong)
-- photo6.jpg → J-Block (Surprised/Delighted)
-- photo7.jpg → L-Block (Sleepy/Cozy)
+- photo1.png → I-Block (Happy/Laughing)
+- photo2.png → O-Block (Thoughtful/Peaceful)
+- photo3.png → T-Block (Playful/Fun)
+- photo4.png → S-Block (Loving/Tender)
+- photo5.png → Z-Block (Confident/Strong)
+- photo6.png → J-Block (Surprised/Delighted)
+- photo7.png → L-Block (Sleepy/Cozy)
 
 ## Placement Instructions
 Place generated/selected photos in:

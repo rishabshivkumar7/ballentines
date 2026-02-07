@@ -131,7 +131,7 @@ After generating images:
 3. **Adjust brightness/contrast** for consistency
 4. **Color correct** to match temperature across all 7
 5. **Compress** to <200KB per image
-6. **Name properly**: photo1.jpg through photo7.jpg
+6. **Name properly**: photo1.png through photo7.png
 
 ### Free Tools
 - **Photopea.com** - Free Photoshop alternative
@@ -184,7 +184,7 @@ Before finalizing photos:
 - [ ] Different clear expressions
 - [ ] Good contrast for small display
 - [ ] Similar lighting across all
-- [ ] Files named photo1.jpg through photo7.jpg
+- [ ] Files named photo1.png through photo7.png
 - [ ] All images <200KB each
 - [ ] Face is centered in frame
 - [ ] Background not distracting

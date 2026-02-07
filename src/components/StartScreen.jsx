@@ -3,7 +3,7 @@ import React from 'react';
 const StartScreen = ({ startGame }) => {
     return (
         <div className="start-screen">
-            <p className="subtitle">A little game made just for you</p>
+            <p className="subtitle">Made a little game for you :)</p>
             <button className="start-button" onClick={startGame}>
                 START GAME
             </button>
