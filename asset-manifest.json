@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ballentines/static/css/main.40b91e96.css",
+    "main.js": "/ballentines/static/js/main.9d6b5b4e.js",
+    "index.html": "/ballentines/index.html",
+    "main.40b91e96.css.map": "/ballentines/static/css/main.40b91e96.css.map",
+    "main.9d6b5b4e.js.map": "/ballentines/static/js/main.9d6b5b4e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.40b91e96.css",
+    "static/js/main.9d6b5b4e.js"
+  ]
+}
