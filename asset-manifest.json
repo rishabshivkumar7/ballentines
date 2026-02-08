@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/ballentines/static/css/main.0c6b7926.css",
-    "main.js": "/ballentines/static/js/main.32df833b.js",
+    "main.js": "/ballentines/static/js/main.12620af0.js",
     "index.html": "/ballentines/index.html",
     "main.0c6b7926.css.map": "/ballentines/static/css/main.0c6b7926.css.map",
-    "main.32df833b.js.map": "/ballentines/static/js/main.32df833b.js.map"
+    "main.12620af0.js.map": "/ballentines/static/js/main.12620af0.js.map"
   },
   "entrypoints": [
     "static/css/main.0c6b7926.css",
-    "static/js/main.32df833b.js"
+    "static/js/main.12620af0.js"
   ]
 }
