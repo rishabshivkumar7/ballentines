@@ -47,16 +47,16 @@ export const INITIAL_DROP_SPEED = 800;
 export const SPEED_INCREASE = 50;
 
 export const LOGIN_QUESTIONS = [
-    {
-        id: 1,
-        question: "Where did Rishab & Rithika first meet?",
-        correctAnswers: ["Metro"]
-    },
     // {
-    //     id: 2,
-    //     question: "Where was our first date?",
-    //     correctAnswers: ["Cafe", "The Cafe", "Third Wave"]
+    //     id: 1,
+    //     question: "Where did Rishab & Rithika first meet?",
+    //     correctAnswers: ["Metro"]
     // },
+    {
+        id: 2,
+        question: "What was Rishab's German Shephard's name?",
+        correctAnswers: ["Bhageera", "bagheera", "bageera"]
+    },
     // {
     //     id: 3,
     //     question: "What is my favorite food?",
