@@ -16,6 +16,7 @@ import StartScreen from './components/StartScreen';
 import GameOver from './components/GameOver';
 import ControlsHint from './components/ControlsHint';
 import LoginQuestionnaire from './components/LoginQuestionnaire';
+import Sidebar from './components/Sidebar';
 import { LOGIN_QUESTIONS } from './constants';
 
 function App() {
@@ -369,11 +370,14 @@ function App() {
           <>
             <Stats score={score} lines={lines} />
             <Message message={message} />
-            <Board
-              displayBoard={displayBoard}
-              handleTouchStart={handleTouchStart}
-              handleTouchEnd={handleTouchEnd}
-            />
+            <div className="game-body">
+              <Board
+                displayBoard={displayBoard}
+                handleTouchStart={handleTouchStart}
+                handleTouchEnd={handleTouchEnd}
+              />
+              <Sidebar nextPiece={nextPiece} />
+            </div>
             {gameOver && <GameOver score={score} lines={lines} startGame={startGame} />}
             <ControlsHint />
           </>

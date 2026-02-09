@@ -52,16 +52,16 @@ export const LOGIN_QUESTIONS = [
     //     question: "Where did Rishab & Rithika first meet?",
     //     correctAnswers: ["Metro"]
     // },
-    {
-        id: 2,
-        question: "What was Rishab's German Shephard's name?",
-        correctAnswers: ["Bhageera", "bagheera", "bageera"]
-    },
     // {
-    //     id: 3,
-    //     question: "What is my favorite food?",
-    //     correctAnswers: ["Sushi", "Sashimi", "Japanese"]
+    //     id: 2,
+    //     question: "What was Rishab's German Shephard's name?",
+    //     correctAnswers: ["Bhageera", "bagheera", "bageera"]
     // },
+    {
+        id: 3,
+        question: "What is my biggest fear?",
+        correctAnswers: ["Drowning", "Stranded in the ocean", "Stranded at sea", "ocean", "the ocean"]
+    },
     // {
     //     id: 4,
     //     question: "What month is our anniversary?",

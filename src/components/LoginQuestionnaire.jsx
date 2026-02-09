@@ -21,7 +21,7 @@ const LoginQuestionnaire = ({ questions, onSuccess }) => {
                 setInputValue('');
                 setError(false);
             } else {
-                // To unlock the game immediately, change the line below to: onSuccess();
+                // To unlock the game immediately, change the line below to: onSuccess(true) else setShowFinished(true);
                 setShowFinished(true);
             }
         } else {
