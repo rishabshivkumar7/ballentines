@@ -57,16 +57,16 @@ export const LOGIN_QUESTIONS = [
     //     question: "What was Rishab's German Shephard's name?",
     //     correctAnswers: ["Bhageera", "bagheera", "bageera"]
     // },
-    {
-        id: 3,
-        question: "What is my biggest fear?",
-        correctAnswers: ["Drowning", "Stranded in the ocean", "Stranded at sea", "ocean", "the ocean"]
-    },
     // {
-    //     id: 4,
-    //     question: "What month is our anniversary?",
-    //     correctAnswers: ["August", "Aug"]
+    //     id: 3,
+    //     question: "What is my biggest fear?",
+    //     correctAnswers: ["Drowning", "Stranded in the ocean", "Stranded at sea", "ocean", "the ocean"]
     // },
+    {
+        id: 4,
+        question: "When was the first time Rishab said he loved you?",
+        correctAnswers: ["18th Feb 2021", "18/2/2021", "feb 18th 2021"]
+    },
     // {
     //     id: 5,
     //     question: "Do you love me?",
