@@ -62,16 +62,16 @@ export const LOGIN_QUESTIONS = [
     //     question: "What is my biggest fear?",
     //     correctAnswers: ["Drowning", "Stranded in the ocean", "Stranded at sea", "ocean", "the ocean"]
     // },
-    {
-        id: 4,
-        question: "When was the first time Rishab said he loved you?",
-        correctAnswers: ["18th Feb 2021", "18/2/2021", "feb 18th 2021"]
-    },
     // {
-    //     id: 5,
-    //     question: "Do you love me?",
-    //     correctAnswers: ["Yes", "Of course", "Always", "I do"]
+    //     id: 4,
+    //     question: "When was the first time Rishab said he loved you?",
+    //     correctAnswers: ["18th Feb 2021", "18/2/2021", "feb 18th 2021"]
     // },
+    {
+        id: 5,
+        question: "What was the first gift Rishab boguht you?",
+        correctAnswers: ["bracelet", "pearls", "pearl bracelet"]
+    },
     // {
     //     id: 6,
     //     question: "Do you love me?",

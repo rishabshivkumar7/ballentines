@@ -328,6 +328,15 @@ body {
   padding: 10px;
 }
 
+.kiss-image {
+  width: 100%;
+  max-width: 150px;
+  margin: 10px auto 0 auto;
+  display: block;
+  image-rendering: pixelated;
+  transform: translateX(-15px);
+}
+
 .question-counter {
   font-size: 0.5rem;
   color: var(--peach-dark);

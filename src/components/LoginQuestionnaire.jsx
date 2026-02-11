@@ -33,7 +33,12 @@ const LoginQuestionnaire = ({ questions, onSuccess }) => {
         return (
             <div className="login-questionnaire finished">
                 <h2 className="question-text">That's all for now!</h2>
-                <p style={{ fontSize: '0.5rem', marginTop: '20px', opacity: 0.6 }}> (Love ya 😘) </p>
+                <img
+                    src={process.env.PUBLIC_URL + '/photos/kiss.png'}
+                    alt="Kiss"
+                    className="kiss-image"
+                />
+                <p style={{ fontSize: '0.5rem', marginTop: '20px', opacity: 0.6 }}> Love ya! </p>
             </div>
         );
     }
