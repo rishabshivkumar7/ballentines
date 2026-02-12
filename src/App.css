@@ -329,9 +329,9 @@ body {
 }
 
 .kiss-image {
-  width: 100%;
-  max-width: 150px;
-  margin: 10px auto 0 auto;
+  width: 50%;
+  margin: auto 0 auto;
+  margin-left: 130px;
   display: block;
   image-rendering: pixelated;
   transform: translateX(-15px);

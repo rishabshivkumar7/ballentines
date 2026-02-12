@@ -67,16 +67,16 @@ export const LOGIN_QUESTIONS = [
     //     question: "When was the first time Rishab said he loved you?",
     //     correctAnswers: ["18th Feb 2021", "18/2/2021", "feb 18th 2021"]
     // },
-    {
-        id: 5,
-        question: "What was the first gift Rishab boguht you?",
-        correctAnswers: ["bracelet", "pearls", "pearl bracelet"]
-    },
     // {
-    //     id: 6,
-    //     question: "Do you love me?",
-    //     correctAnswers: ["Yes", "Of course", "Always", "I do"]
+    //     id: 5,
+    //     question: "What was the first gift Rishab bought you?",
+    //     correctAnswers: ["bracelet", "pearls", "pearl bracelet"]
     // },
+    {
+        id: 6,
+        question: "What is Rishab's favorite memory with you?",
+        correctAnswers: ["gili", "shrooms in gili", "laughing in gili", "mushroom trip"]
+    },
     // {
     //     id: 7,
     //     question: "Do you love me?",
