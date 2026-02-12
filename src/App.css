@@ -329,12 +329,11 @@ body {
 }
 
 .kiss-image {
-  width: 50%;
-  margin: auto 0 auto;
-  margin-left: 130px;
+  width: 100%;
+  max-width: 150px;
+  margin: 20px auto;
   display: block;
   image-rendering: pixelated;
-  transform: translateX(-15px);
 }
 
 .question-counter {
