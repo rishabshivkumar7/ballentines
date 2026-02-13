@@ -72,14 +72,14 @@ export const LOGIN_QUESTIONS = [
     //     question: "What was the first gift Rishab bought you?",
     //     correctAnswers: ["bracelet", "pearls", "pearl bracelet"]
     // },
-    {
-        id: 6,
-        question: "What is Rishab's favorite memory with you?",
-        correctAnswers: ["gili", "shrooms in gili", "laughing in gili", "mushroom trip"]
-    },
     // {
-    //     id: 7,
-    //     question: "Do you love me?",
-    //     correctAnswers: ["Yes", "Of course", "Always", "I do"]
-    // }
+    //     id: 6,
+    //     question: "What is Rishab's favorite memory with you?",
+    //     correctAnswers: ["gili", "shrooms in gili", "laughing in gili", "mushroom trip"]
+    // },
+    {
+        id: 7,
+        question: "What is Rishab's favorite snack that you bring him?",
+        correctAnswers: ["chessmen", "cookies", "chessmen cookies"]
+    }
 ];

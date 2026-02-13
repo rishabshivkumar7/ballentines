@@ -34,7 +34,7 @@ const LoginQuestionnaire = ({ questions, onSuccess }) => {
             <div className="login-questionnaire finished">
                 <h2 className="question-text">That's all for now!</h2>
                 <img
-                    src={process.env.PUBLIC_URL + '/photos/pinch.png'}
+                    src={process.env.PUBLIC_URL + '/photos/burger.png'}
                     alt="Kiss"
                     className="kiss-image"
                 />
