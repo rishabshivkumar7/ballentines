@@ -77,9 +77,14 @@ export const LOGIN_QUESTIONS = [
     //     question: "What is Rishab's favorite memory with you?",
     //     correctAnswers: ["gili", "shrooms in gili", "laughing in gili", "mushroom trip"]
     // },
+    // {
+    //     id: 7,
+    //     question: "What is Rishab's favorite snack that you bring him?",
+    //     correctAnswers: ["chessmen", "cookies", "chessmen cookies"]
+    // },
     {
-        id: 7,
-        question: "What is Rishab's favorite snack that you bring him?",
-        correctAnswers: ["chessmen", "cookies", "chessmen cookies"]
+        id: 8,
+        question: "Will you be my wife?",
+        correctAnswers: ["yes"]
     }
 ];
